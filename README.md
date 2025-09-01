@@ -44,7 +44,7 @@ Node.js (versão 14 ou superior)
 
 npm (gerenciador de pacotes do Node.js)
 
-MongoDB instalado e rodando localmente (ou uma conta em um serviço de cloud como o MongoDB Atlas).
+MongoDB instalado e rodando localmente.
 
 Instalação
 Clone este repositório para a sua máquina:
