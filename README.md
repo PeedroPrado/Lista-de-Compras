@@ -51,7 +51,7 @@ Clone este repositório para a sua máquina:
 
 Bash
 
-git clone [URL_DO_SEU_REPOSITÓRIO]
+git clone "https://github.com/PeedroPrado/Lista-de-Compras.git"
 cd [pasta-do-seu-projeto]
 Instale as dependências do projeto no backend:
 
