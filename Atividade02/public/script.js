@@ -48,8 +48,8 @@ async function carregarProdutos() {
                 <td>${produto.quantidade}</td>
                 <td>${formatarMoeda(produto.preco * produto.quantidade)}</td>
                 <td>
-                    <button onclick="editarProduto('${produto._id}', '${produto.nome}', '${produto.preco}', '${produto.quantidade}')">Editar</button>
-                    <button onclick="excluirProduto('${produto._id}')">Excluir</button>
+                    <button class="editar" onclick="editarProduto('${produto._id}', '${produto.nome}', '${produto.preco}', '${produto.quantidade}')">Editar</button>
+                    <button class= "excluir" onclick="excluirProduto('${produto._id}')">Excluir</button>
                 </td>
             `;
             lista.appendChild(tr);
@@ -135,4 +135,5 @@ function calcularTotalGeral() {
     });
     
     document.getElementById('total-geral').textContent = formatarMoeda(totalGeral);
+
 }
